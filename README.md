@@ -1,2 +1,2 @@
 # TikTakToe
-Babe is teaching me to git
+Seth is teaching Brooklyn how to use git
