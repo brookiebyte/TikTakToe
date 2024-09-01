@@ -1,6 +1,7 @@
 # Libraries
 
 # Functions
+
 def PrintEmptyBoard():
     print("___|___|___")
     print("___|___|___")
@@ -8,4 +9,6 @@ def PrintEmptyBoard():
 
 # Main
 
-PrintEmptyBoard()
+PrintEmptyBoard() 
+while True: 
+   print(input())
