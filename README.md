@@ -10,5 +10,5 @@ python3 play_tik_tak_toe.py
 ### Windows
 Run in Terminal
 ```
-python play_tik_toe.py
+python play_tik_tak_toe.py
 ```
