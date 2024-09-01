@@ -12,9 +12,3 @@ Run in Terminal
 ```
 python play_tik_toe.py
 ```
-
-# Brookie please delete
-* delete this bullet point
-* and this one too
-- if this is anything
-- please delete as well
