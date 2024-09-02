@@ -2,13 +2,14 @@
 
 # Global Variables
 isXTurn = True
+grid = "_1_|_2_|_3_\n_4_|_5_|_6_\n 7 | 8 | 9 "
 
 # Functions
 
-def PrintEmptyBoard():
-    print("___|___|___")
-    print("___|___|___")
-    print("   |   |   ")
+# def PrintEmptyBoard():
+#     print("___|___|___")
+#     print("___|___|___")
+#     print("   |   |   ")
 
 def SwitchTurns():
     global isXTurn
@@ -21,9 +22,12 @@ def SwitchTurns():
 
 
 # Main
-
-PrintEmptyBoard() 
+print(grid)
 while True:
    print(input())
    print("is it X's turn?: " + str(isXTurn))
    SwitchTurns()
+
+
+
+
