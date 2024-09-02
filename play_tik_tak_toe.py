@@ -12,7 +12,13 @@ def PrintEmptyBoard():
 
 def SwitchTurns():
     global isXTurn
-    isXTurn = not isXTurn
+    if isXTurn == True:
+        print("X")
+        isXTurn = False
+    else:
+        print("O")
+        isXTurn = True
+
 
 # Main
 
