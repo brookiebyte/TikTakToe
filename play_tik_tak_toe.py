@@ -6,11 +6,6 @@ grid = "_1_|_2_|_3_\n_4_|_5_|_6_\n 7 | 8 | 9 "
 
 # Functions
 
-# def PrintEmptyBoard():
-#     print("___|___|___")
-#     print("___|___|___")
-#     print("   |   |   ")
-
 def SwitchTurns():
     global isXTurn
     if isXTurn == True:
